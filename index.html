@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulär</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="img">
+    <header><h1>Formulär</h1></header>
+    <main>
+      <form autocomplete="off">
+        <fieldset>
+          <fieldset>
+            <legend>Användaruppgifter</legend>
+            <div>
+              <label>Namn :<input type="text" /></label>
+              <label>Telefonnummer :<input type="text" /></label>
+              <label>Mail :<input type="email" /></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Betalningsmetod</legend>
+            <div>
+              <label class="knapp"
+                ><input type="radio" name="pay" id="" />Cards</label
+              >
+              <label class="knapp"
+                ><input type="radio" name="pay" id="" />Paypal</label
+              >
+              <label class="knapp"
+                ><input type="radio" name="pay" id="" />Bitcoin</label
+              >
+            </div>
+          </fieldset>
+          <fieldset>
+            <fieldset>
+              <legend>Hur många gånger har du chillat senaste veckan?</legend>
+              <div>
+                <label class="knapp"
+                  ><input type="radio" name="chillnumber" id="" /> < 5</label
+                >
+                <label class="knapp"
+                  ><input type="radio" name="chillnumber" id="" />5 < 10</label
+                >
+                <label class="knapp"
+                  ><input type="radio" name="chillnumber" id="" /> > 10</label
+                >
+              </div>
+            </fieldset>
+          </fieldset>
+        </fieldset>
+        <button>Skicka in</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

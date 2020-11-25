@@ -1,0 +1,28 @@
+fieldset div {
+  display: grid;
+  grid-auto-flow: column;
+}
+.knapp {
+  text-align: center;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.img {
+  background-image: url("forest.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  display: grid;
+  place-content: center;
+}
+h1 {
+  color: white;
+}
